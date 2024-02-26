@@ -1,6 +1,6 @@
-<html>
+<html lang="en">
 <head>
-  <title>Phone Dialer</title>
+  <title>Accessible Phone Dialer</title>
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
   <link rel="stylesheet" href="phone - large.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -8,12 +8,13 @@
 </head>
 <body>
   <h2>Phone Dialer</h2>
-  <div id="tab_bar">
+  <nav id="tab_bar">
     <button id="Dialpad" class="buttons">Dialpad</button>
     <button id="Contacts" class="buttons">Contacts</button>
     <button id="Addcontacts" class="buttons">Add Contact</button>
-  </div>
-  <div id="content">
+  </nav
+
+  <main id="content">
     <div class = "alert" id = "aria" role = "alert">
       Dialling....
     </div>
@@ -37,8 +38,8 @@
         <br></br>
             <div id="row5" class="row5">
               <div>
-                <button id="dial">DIAL</button>
-                <button id="clear">CLEAR</button>
+                <button id="dial" aria-label="Dial the entered phone number">DIAL</button>
+                <button id="clear" aria-label="Clear the entered phone number">CLEAR</button>
               </div>
           </div>
     </div>
@@ -55,7 +56,7 @@
     </div>
     <div id="content_addcontact" class="content_tab">
       <p>Add Contact Tab</p>
-      <form>
+      <form aria-label="Add a new contact">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
         <br>
@@ -68,10 +69,11 @@
         <button type="submit">Add Contact</button>
       </form>
     </div>
-
+  </main>
     <br></br>
-
-    <a href="index.html">Original page</a><br></br>
-    <a href ="info.txt">info</a>
+     <footer>
+    <a href="index.html" title="Back to the original Phone Dialer page">Original page</a><br></br>
+    <a href ="info.txt" title="changes made">info</a>
+     </footer>
 </body>
 </html>
