@@ -6,4 +6,4 @@
 
 4. added description to all forms and buttons and links so that people will not have any problems to use the site with JAWS.
 
-5. tried to keep the contrast ratio more than 
+5. tried to keep the contrast ratio more than 4.5:1 as per guidelines.
