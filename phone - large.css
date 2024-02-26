@@ -106,7 +106,7 @@ input{
 }
 .alert{
   display:none;
-  color: #8B0000;
+  color: black;
   font-size: 30px;
   font-style: oblique;
   background-color:white;
