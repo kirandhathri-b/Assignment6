@@ -1,0 +1,116 @@
+.buttons{
+  width: 200px;
+  height: 70px;
+  background: yellow;
+  color: black;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+body {
+  background-color: black;
+  text-align:center;
+}
+#content_contacts{
+  line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    color:yellow;
+}
+#content_tab{
+  width:50px;
+  height:50px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content_addcontact{
+  height: 300px;
+  width: 200px;
+  font-size: 24px;
+  font-weight: bold;
+  margin: auto;
+
+}
+
+form{
+  color:yellow;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px;
+
+}
+form button{
+  color:black;
+  background-color: yellow;
+}
+
+#dial, #clear{
+  color: black;
+  background: yellow;
+  width:100px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 10px;
+}
+a{
+  color: white;
+}
+
+p{
+  color: yellow;
+  font-weight: bold;
+  font-size: 24px;
+
+}
+
+.num{
+  display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 5px;
+   max-width:300px;
+   justify-content: center;
+   margin: auto;
+}
+.dialerbutton{
+  height:70px;
+  width:70px;
+  background-color: yellow;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+input{
+  color:black;
+  background-color: yellow;
+  border-radius: 10px;
+  height 30px;
+  font-size: 24px;
+  border: 1px solid #000;
+}
+
+#content_contacts ul{
+  list-style: none;
+  padding:0;
+}
+#content_contacts li{
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+
+
+}
+.alert{
+  display:none;
+  color: #8B0000;
+  font-size: 30px;
+  font-style: oblique;
+  background-color:white;
+  height:auto;
+  width:200;
+  margin:auto;
+}

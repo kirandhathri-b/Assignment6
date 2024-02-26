@@ -1,0 +1,9 @@
+1. Increased the font size and made most of the font into bold.
+
+2. changed the colour scheme so that people with color blindness and low vision can easily read the page. purposefully avoided using green and red colors because most color blind people cant see either red or green.
+
+3.added aria-alert when dial button is clicked instead of alert popup.
+
+4. added description to all forms and buttons and links so that people will not have any problems to use the site with JAWS.
+
+5. tried to keep the contrast ratio more than 
